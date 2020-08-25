@@ -76,17 +76,17 @@ OpenRoleZoo 为常用操作的集合，SeetaAuthorize  为模型解析工程，T
 
 #### Android 平台编译说明
 + 安装 ndk 编译工具(推荐版本 **ndk-r16b**)
-  - 从  https://developer.android.com/ndk/downloads 下载 ndk，并安装到：/home/android-ndk
-  - 设置环境变量：
-
-        export ANDROID_NDK=/home/android-ndk
+  - 从  https://developer.android.com/ndk/downloads 下载 ndk 并安装
+  - 设置环境变量, 导出ndk-build工具
 
 + 编译
         各个模块均含有 android/jni/Android.mk 和 android/jni/Application.mk 两个编译脚本文件。
 
         cd 到各模块的 android/jni 目录
         执行 ndk-build -j4 编译
-        
+
+#### 其他 arm 等需要交叉编译平台
+    当前版本并未直接对交叉编译平台进行支持， 不过可参考文章 [https://zhuanlan.zhihu.com/p/100367053](http://cmake) 的说明进行 CMake 配置和对应平台的编译。 
 # 下载地址
 
 ### 百度网盘
