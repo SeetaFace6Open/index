@@ -48,16 +48,17 @@
 ## 编译
 
 ### 编译依赖
- 1. 编译工具
- 2. For linux
-        - GNU Make 工具
-        - GCC 或者 Clang 编译器
- 3. For windows
-        - [MSVC](http://msdn.microsoft.com/zh-cn/vstudio) 或者 MinGW. 
-        - jom(<u>https://wiki.qt.io/Jom</u>)
+ 
+1. 编译工具
+2. For linux<br>
+        GNU Make 工具<br>
+        GCC 或者 Clang 编译器
+3. For windows<br>
+        [MSVC](https://visualstudio.microsoft.com/zh-hans/) 或者 MinGW. <br>
+        [jom](https://wiki.qt.io/Jom)
  4. [CMake](http://www.cmake.org/)
  5. 依赖架构
- 6. CPU 支持 AVX 和 FMA [可选]（x86）或 NENO（ARM）支持
+ CPU 支持 AVX 和 FMA [可选]（x86）或 NENO（ARM）支持
 
 ### 编译顺序说明
 OpenRoleZoo 为常用操作的集合，SeetaAuthorize  为模型解析工程，TenniS 为前向计算框架。需要重点说明的是，此次 TenniS 同时放出了 **GPU** 计算源码，可以编译出 **GPU** 版本进行使用。上述三个模块为基础模块，各个 SDK 的编译均依赖上述模块，因此需要优先编译出 OpenRoleZoo, SeetaAuthorize 和 TenniS，然后再进行其他 SDK 模块的编译。
@@ -86,7 +87,7 @@ OpenRoleZoo 为常用操作的集合，SeetaAuthorize  为模型解析工程，T
         执行 ndk-build -j4 编译
 
 #### 其他 arm 等需要交叉编译平台
-    当前版本并未直接对交叉编译平台进行支持， 不过可参考文章 [https://zhuanlan.zhihu.com/p/100367053](http://cmake) 的说明进行 CMake 配置和对应平台的编译。 
+    当前版本并未直接对交叉编译平台进行支持， 不过可参考文章 https://zhuanlan.zhihu.com/p/100367053 的说明进行 CMake 配置和对应平台的编译。 
 # 下载地址
 
 ### 百度网盘
