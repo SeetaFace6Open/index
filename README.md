@@ -87,7 +87,7 @@ OpenRoleZoo 为常用操作的集合，SeetaAuthorize  为模型解析工程，T
         执行 ndk-build -j4 编译
 
 #### 其他 arm 等需要交叉编译平台
-    当前版本并未直接对交叉编译平台进行支持， 不过可参考文章 [CMake cross compile](https://zhuanlan.zhihu.com/p/100367053) 的说明进行 CMake 配置和对应平台的编译。 
+当前版本并未直接对交叉编译平台进行支持， 不过可参考文章 [cmake cross compile](https://zhuanlan.zhihu.com/p/100367053) 的说明进行 CMake 配置和对应平台的编译。 
 # 下载地址
 
 ### 百度网盘
