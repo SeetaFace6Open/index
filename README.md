@@ -68,12 +68,12 @@ OpenRoleZoo 为常用操作的集合，SeetaAuthorize  为模型解析工程，T
 ####  linux 平台编译说明
 
     cd ./craft
-    运行脚本 build.linux.x64.sh
+    运行脚本 build.linux.x64.sh(gpu版本为 build.linux.x64_gpu.sh)
     
 ####  windows 平台编译说明
 
     cd ./craft
-    执行脚本 build.win.vc14.all.cmd 编译各个版本的库
+    执行脚本 build.win.vc14.all.cmd 编译各个版本的库(gpu版本为build.win.vc14.all_gpu.cmd)
 
 #### Android 平台编译说明
 + 安装 ndk 编译工具(推荐版本 **ndk-r16b**)
