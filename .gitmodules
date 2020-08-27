@@ -1,7 +1,3 @@
-[submodule "SeetaAuthorize"]
-	path = SeetaAuthorize
-	url = https://github.com/SeetaFace6Open/SeetaAuthorize
-	branch = master
 [submodule "OpenRoleZoo"]
 	path = OpenRoleZoo
 	url = https://github.com/SeetaFace6Open/OpenRoleZoo
@@ -53,4 +49,8 @@
 [submodule "TenniS"]
 	path = TenniS
 	url = https://github.com/TenniS-Open/TenniS
+	branch = master
+[submodule "SeetaAuthorize"]
+	path = SeetaAuthorize
+	url = https://github.com/SeetaFace6Open/SeetaAuthorize
 	branch = master
