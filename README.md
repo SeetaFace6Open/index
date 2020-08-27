@@ -47,6 +47,12 @@
 
 ## 编译
 
+### 下载源码
+
+```
+git clone --recursive https://github.com/SeetaFace6Open/index.git
+```
+
 ### 编译依赖
  
 1. 编译工具
