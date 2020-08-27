@@ -50,3 +50,7 @@
 	path = QualityAssessor3
 	url = https://github.com/SeetaFace6Open/QualityAssessor3
 	branch = master
+[submodule "TenniS"]
+	path = TenniS
+	url = https://github.com/TenniS-Open/TenniS
+	branch = master
